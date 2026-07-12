@@ -244,17 +244,16 @@ footer {
 
 .back-link:hover { color: var(--ink); }
 
-.project-hero {
-  padding: 24px 0 44px;
-  border-bottom: 1px solid var(--line);
+.project-intro {
+  padding: 24px 0 28px;
 }
 
-.project-hero .tag {
+.project-intro .tag {
   margin-bottom: 14px;
   display: inline-block;
 }
 
-.project-hero h1 {
+.project-intro h1 {
   font-family: var(--font-display);
   font-weight: 500;
   font-size: clamp(32px, 5vw, 52px);
@@ -283,39 +282,47 @@ footer {
   color: var(--ink);
 }
 
+.project-hero-img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+  background: var(--bg-card);
+}
+
 .project-body {
-  padding: 48px 0 20px;
+  padding: 40px 0 0;
 }
 
 .project-body p {
-  font-family: var(--font-display);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 21px;
-  line-height: 1.7;
-  color: var(--ink);
-  max-width: 640px;
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--ink-soft);
+  max-width: 620px;
+}
+
+.project-rule {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 40px 0 0;
 }
 
 .gallery {
   padding: 36px 0 90px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 4px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
 }
 
-.gallery img,
-.gallery .ph {
+.gallery img {
   width: 100%;
   aspect-ratio: 4/3;
   object-fit: cover;
   display: block;
   background: var(--bg-card);
-}
-
-.gallery > :first-child {
-  grid-column: span 2;
-  aspect-ratio: 16/9;
+  border-radius: 6px;
 }
 
 /* ---------- responsive ---------- */
@@ -332,9 +339,8 @@ footer {
   .card { aspect-ratio: 3/2; }
   .contact { padding: 50px 0 70px; }
   footer { flex-direction: column; gap: 6px; }
-  .project-body p { font-size: 17px; }
-  .gallery { grid-template-columns: 1fr; }
-  .gallery > :first-child { grid-column: span 1; aspect-ratio: 4/3; }
+  .project-hero-img { aspect-ratio: 4/3; }
+  .gallery { grid-template-columns: 1fr; gap: 12px; }
 }
 
 @media (max-width: 400px) {
