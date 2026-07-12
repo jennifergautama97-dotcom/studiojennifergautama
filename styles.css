@@ -96,8 +96,13 @@ nav .links a:hover { color: var(--ink); }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 4px;
+}
+
+/* tablets & phones: one project per row */
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
 }
 
 .card {
