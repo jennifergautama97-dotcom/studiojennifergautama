@@ -121,6 +121,7 @@ nav .links a:hover { color: var(--ink); }
 .card.ph3 { background: #D9CBB4; }
 .card.ph4 { background: #8A6B52; }
 .card.ph5 { background: #221D16; }
+.card.ph6 { background: #CDBFA8; }
 
 .card img {
   position: absolute;
