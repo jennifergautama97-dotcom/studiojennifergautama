@@ -322,6 +322,7 @@ footer {
 .gallery-portrait { grid-template-columns: repeat(3, 1fr); }
 .gallery.gallery-portrait img { aspect-ratio: 3/4; }
 .gallery.gallery-portrait img.wide { grid-column: 1 / -1; aspect-ratio: 16/9; }
+.gallery.gallery-before { padding-top: 0; }
 
 .gallery img {
   width: 100%;
