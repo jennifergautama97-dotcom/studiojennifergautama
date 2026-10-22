@@ -123,6 +123,8 @@ nav .links a:hover { color: var(--ink); }
 .card.ph5 { background: #221D16; }
 .card.ph6 { background: #CDBFA8; }
 .card.ph7 { background: #B89A74; }
+.card.ph8 { background: #E2E5DF; }
+.card.ph8 .meta { background: linear-gradient(to top, rgba(20,15,10,0.8), rgba(20,15,10,0) 85%); }
 
 .card img {
   position: absolute;
@@ -294,9 +296,15 @@ footer {
   background: var(--bg-card);
 }
 
+/* drawings: show the whole sheet instead of cropping */
+.project-hero-img.contain { object-fit: contain; background: #FFFFFF; }
+
 .project-body {
   padding: 40px 0 0;
 }
+
+/* no gallery below: leave room before the contact rule */
+.project-body.solo { padding-bottom: 90px; }
 
 .project-body p {
   font-family: var(--font-body);
