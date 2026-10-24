@@ -124,6 +124,7 @@ nav .links a:hover { color: var(--ink); }
 .card.ph6 { background: #CDBFA8; }
 .card.ph7 { background: #B89A74; }
 .card.ph8 { background: #E2E5DF; }
+.card.ph9 { background: #9C4A35; }
 .card.ph8 .meta { background: linear-gradient(to top, rgba(20,15,10,0.8), rgba(20,15,10,0) 85%); }
 
 .card img {
