@@ -342,6 +342,8 @@ footer {
   border-radius: 6px;
 }
 
+.gallery img.full { grid-column: 1 / -1; aspect-ratio: auto; }
+
 /* ---------- responsive ---------- */
 
 @media (max-width: 640px) {
