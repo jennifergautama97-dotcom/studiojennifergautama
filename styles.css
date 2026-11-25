@@ -125,7 +125,10 @@ nav .links a:hover { color: var(--ink); }
 .card.ph7 { background: #B89A74; }
 .card.ph8 { background: #E2E5DF; }
 .card.ph9 { background: #9C4A35; }
-.card.ph8 .meta { background: linear-gradient(to top, rgba(20,15,10,0.8), rgba(20,15,10,0) 85%); }
+.card.ph8 .meta,
+.card.ph5 .meta { background: linear-gradient(to top, rgba(20,15,10,0.8), rgba(20,15,10,0) 85%); }
+.card.ph5 .name, .card.ph5 .room { text-shadow: 0 1px 12px rgba(20,15,10,0.6); }
+.card.ph5 .meta { padding-top: 56px; background: linear-gradient(to top, rgba(20,15,10,0.8), rgba(20,15,10,0.5) 60%, rgba(20,15,10,0)); }
 
 .card img {
   position: absolute;
@@ -468,3 +471,9 @@ footer {
 
 /* no gallery above yet: the project rule already draws the line */
 .project-rule + .iterations { border-top: none; margin-top: 0; }
+
+/* wide panoramic renders: show the whole frame, one per row */
+.project-hero-img.wide { aspect-ratio: auto; height: auto; }
+.gallery-wide { grid-template-columns: 1fr; }
+.gallery.gallery-wide img { aspect-ratio: auto; height: auto; }
+.gallery.gallery-wide { padding-bottom: 0; }
