@@ -48,15 +48,30 @@
 
   <hr class="project-rule">
 
-  <div class="gallery">
-    <img loading="lazy" decoding="async" src="slow-sunday-living-tv.jpg" alt="Ghim Moh living room with flowing curtains tracing a curved edge">
-    <img loading="lazy" decoding="async" src="slow-sunday-living-curtain.jpg" alt="Ghim Moh living room between the curved curtains and the dining area">
-    <img loading="lazy" decoding="async" src="slow-sunday-living-hallway.jpg" alt="Ghim Moh living room with curved curtain wall leading to the hallway">
-    <img loading="lazy" decoding="async" src="slow-sunday-living-dining.jpg" alt="Ghim Moh living room looking toward the dining area and sage-green backsplash">
-    <img loading="lazy" decoding="async" src="slow-sunday-bedroom.jpg" alt="Ghim Moh bedroom with curved-edge vanity niche and wardrobe">
-    <img loading="lazy" decoding="async" src="slow-sunday-kitchen-1.jpg" alt="Ghim Moh galley kitchen with warm wood cabinetry">
-    <img loading="lazy" decoding="async" src="slow-sunday-kitchen-2.jpg" alt="Ghim Moh kitchen looking toward the dining area">
-  </div>
+  <!-- NEW RENDERS GALLERY GOES HERE -->
+
+  <section class="iterations">
+    <h2 class="section-label">Previous iterations</h2>
+    <div class="iter-grid">
+      <a href="slow-sunday-living-tv.jpg" class="iter-thumb" data-caption="Living room with flowing curtains tracing a curved edge"><img loading="lazy" decoding="async" src="thumbs/slow-sunday-living-tv.jpg" alt="Ghim Moh earlier iteration - living room with flowing curtains tracing a curved edge" width="480" height="480"></a>
+      <a href="slow-sunday-living-curtain.jpg" class="iter-thumb" data-caption="Living room between the curved curtains and the dining area"><img loading="lazy" decoding="async" src="thumbs/slow-sunday-living-curtain.jpg" alt="Ghim Moh earlier iteration - living room between the curved curtains and the dining area" width="480" height="480"></a>
+      <a href="slow-sunday-living-hallway.jpg" class="iter-thumb" data-caption="Living room with curved curtain wall leading to the hallway"><img loading="lazy" decoding="async" src="thumbs/slow-sunday-living-hallway.jpg" alt="Ghim Moh earlier iteration - living room with curved curtain wall leading to the hallway" width="480" height="480"></a>
+      <a href="slow-sunday-living-dining.jpg" class="iter-thumb" data-caption="Living room looking toward the dining area and sage-green backsplash"><img loading="lazy" decoding="async" src="thumbs/slow-sunday-living-dining.jpg" alt="Ghim Moh earlier iteration - living room looking toward the dining area and sage-green backsplash" width="480" height="480"></a>
+      <a href="slow-sunday-bedroom.jpg" class="iter-thumb" data-caption="Bedroom with curved-edge vanity niche and wardrobe"><img loading="lazy" decoding="async" src="thumbs/slow-sunday-bedroom.jpg" alt="Ghim Moh earlier iteration - bedroom with curved-edge vanity niche and wardrobe" width="480" height="480"></a>
+      <a href="slow-sunday-kitchen-1.jpg" class="iter-thumb" data-caption="Galley kitchen with warm wood cabinetry"><img loading="lazy" decoding="async" src="thumbs/slow-sunday-kitchen-1.jpg" alt="Ghim Moh earlier iteration - galley kitchen with warm wood cabinetry" width="480" height="480"></a>
+      <a href="slow-sunday-kitchen-2.jpg" class="iter-thumb" data-caption="Kitchen looking toward the dining area"><img loading="lazy" decoding="async" src="thumbs/slow-sunday-kitchen-2.jpg" alt="Ghim Moh earlier iteration - kitchen looking toward the dining area" width="480" height="480"></a>
+    </div>
+  </section>
+
+  <dialog class="lightbox" aria-label="Image viewer">
+    <button class="lb-close" type="button" aria-label="Close">&times;</button>
+    <button class="lb-prev" type="button" aria-label="Previous image">&#8249;</button>
+    <figure>
+      <img src="" alt="">
+      <figcaption></figcaption>
+    </figure>
+    <button class="lb-next" type="button" aria-label="Next image">&#8250;</button>
+  </dialog>
 
   <section class="contact" id="contact">
     <h2>Let's create beautiful spaces together.</h2>
@@ -73,6 +88,8 @@
   </footer>
 
 </div>
+
+<script src="lightbox.js"></script>
 
 </body>
 </html>
