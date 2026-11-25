@@ -477,3 +477,4 @@ footer {
 .gallery-wide { grid-template-columns: 1fr; }
 .gallery.gallery-wide img { aspect-ratio: auto; height: auto; }
 .gallery.gallery-wide { padding-bottom: 0; }
+.project-body p + p { margin-top: 18px; }
