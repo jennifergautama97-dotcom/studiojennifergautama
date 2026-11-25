@@ -127,8 +127,8 @@ nav .links a:hover { color: var(--ink); }
 .card.ph9 { background: #9C4A35; }
 .card.ph8 .meta,
 .card.ph5 .meta { background: linear-gradient(to top, rgba(20,15,10,0.8), rgba(20,15,10,0) 85%); }
-.card.ph5 .name, .card.ph5 .room { text-shadow: 0 1px 12px rgba(20,15,10,0.6); }
-.card.ph5 .meta { padding-top: 56px; background: linear-gradient(to top, rgba(20,15,10,0.8), rgba(20,15,10,0.5) 60%, rgba(20,15,10,0)); }
+.card.ph5 .name, .card.ph5 .room, .card.ph6 .name, .card.ph6 .room { text-shadow: 0 1px 12px rgba(20,15,10,0.6); }
+.card.ph5 .meta, .card.ph6 .meta { padding-top: 56px; background: linear-gradient(to top, rgba(20,15,10,0.8), rgba(20,15,10,0.5) 60%, rgba(20,15,10,0)); }
 
 .card img {
   position: absolute;
